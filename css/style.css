@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,500,700');
+
+body {
+	/* add background */
+	background: linear-gradient(to top right,rgb(22,135,237), rgb(97,29,125)); 
+	color: #fff;
+	font-family: 'Rubik',Arial,sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+header {
+	margin:0 auto;
+	width:60%;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 105px;
+}
+
+h2 {
+	font-weight:500;
+	font-size: 30px;	
+}
+
+h1, h2 {text-align:center;}
+
+/**************************************************
+ ID
+ **************************************************/
+#container {
+	margin: 95px auto;
+	width: 1440px;
+
+}
+
+
+/**************************************************
+Classes
+ **************************************************/
+.smallcol {
+	display: inline-block;
+	margin: 35px;
+	padding: 35px;
+	text-align: center;
+	width: 340px;
+}
